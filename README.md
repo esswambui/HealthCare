@@ -12,8 +12,8 @@ The database is hosted in [mongoDB Atlas](https://www.mongodb.com/cloud/atlas) a
 ##### Patients Collection
 ![patients](pys.png "patients")
 
-### healthmongo,ipynb
-Jupyte notebook that contains code written in [Python 3.9](https://python.org) HTML and [mongoDB NoSQL](https://www.mongodb.com/)     
+### health Mongo.ipynb
+Jupyter notebook that contains code written in [Python 3.9](https://python.org) HTML and [mongoDB NoSQL](https://www.mongodb.com/)     
 Libraries imported are **pymongo**,**pandas**, **dns** and **webbrowser**  
 The following is the procedure followed in the code:
 - Connect to mongodb atlas server.
