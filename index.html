@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta cSharset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Health Records</title>
+        <link rel ="stylesheet" type="text/css" media="screen" href="table.css"/>'
+        </head>
+        <body>
+        <h1>Healthcare Records</h1>
+</br><h2>Hospitals</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>hospital_name</th>
+      <th>address</th>
+    </tr>
+    <tr>
+      <th>hospital_id</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Agakhan</td>
+      <td>Nairobi</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Mater</td>
+      <td>Nairobi</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Metropolis</td>
+      <td>Kisumu</td>
+    </tr>
+  </tbody>
+</table></br><h2>Doctors</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>doctor_name</th>
+      <th>hospital_id</th>
+      <th>date_joined</th>
+      <th>speciality</th>
+      <th>Salary</th>
+      <th>experience</th>
+    </tr>
+    <tr>
+      <th>doctor_id</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>11</th>
+      <td>Mercy</td>
+      <td>1</td>
+      <td>2012-02-12</td>
+      <td>Gynacology</td>
+      <td>50000</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>James</td>
+      <td>2</td>
+      <td>2017-05-17</td>
+      <td>Physisian</td>
+      <td>40000</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>MercyAngie</td>
+      <td>3</td>
+      <td>2018-02-06</td>
+      <td>Neurology</td>
+      <td>80000</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table></br><h2>Patients</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>patient_names</th>
+      <th>age</th>
+      <th>gender</th>
+      <th>hospital_id</th>
+      <th>inpatient</th>
+      <th>outpatient</th>
+    </tr>
+    <tr>
+      <th>patient_id</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>21</th>
+      <td>Mercy Sande</td>
+      <td>32</td>
+      <td>F</td>
+      <td>3</td>
+      <td>True</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Ian Ouko</td>
+      <td>12</td>
+      <td>M</td>
+      <td>3</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Sam Kimani</td>
+      <td>78</td>
+      <td>M</td>
+      <td>1</td>
+      <td>True</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Nayla Mambo</td>
+      <td>4</td>
+      <td>F</td>
+      <td>2</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Sophie Iminza</td>
+      <td>42</td>
+      <td>F</td>
+      <td>2</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table></br><h2>Docors in Specific Hospitals </h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>hospital_name</th>
+      <th>doctor_id</th>
+      <th>doctor_name</th>
+      <th>speciality</th>
+    </tr>
+    <tr>
+      <th>hospital_id</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Agakhan</td>
+      <td>11</td>
+      <td>Mercy</td>
+      <td>Gynacology</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Mater</td>
+      <td>12</td>
+      <td>James</td>
+      <td>Physisian</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Metropolis</td>
+      <td>13</td>
+      <td>MercyAngie</td>
+      <td>Neurology</td>
+    </tr>
+  </tbody>
+</table></br><h2>Patient Records</h2><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>patient_names</th>
+      <th>inpatient</th>
+      <th>outpatient</th>
+      <th>hospital_id</th>
+      <th>hospital_name</th>
+      <th>doctor_name</th>
+      <th>speciality</th>
+    </tr>
+    <tr>
+      <th>patient_id</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>21</th>
+      <td>Mercy Sande</td>
+      <td>True</td>
+      <td>False</td>
+      <td>3</td>
+      <td>Metropolis</td>
+      <td>MercyAngie</td>
+      <td>Neurology</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Ian Ouko</td>
+      <td>False</td>
+      <td>True</td>
+      <td>3</td>
+      <td>Metropolis</td>
+      <td>MercyAngie</td>
+      <td>Neurology</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Sam Kimani</td>
+      <td>True</td>
+      <td>False</td>
+      <td>1</td>
+      <td>Agakhan</td>
+      <td>Mercy</td>
+      <td>Gynacology</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Nayla Mambo</td>
+      <td>False</td>
+      <td>True</td>
+      <td>2</td>
+      <td>Mater</td>
+      <td>James</td>
+      <td>Physisian</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Sophie Iminza</td>
+      <td>False</td>
+      <td>True</td>
+      <td>2</td>
+      <td>Mater</td>
+      <td>James</td>
+      <td>Physisian</td>
+    </tr>
+  </tbody>
+</table></body></html>
