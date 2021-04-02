@@ -21,11 +21,11 @@ The following is the procedure followed in the code:
 - Create the collections
 - Join the collections using the *hospital_id* 
 - Create dataframes from the collections
-- Display dayaframes in a webbrowser
+- Display dataframes in a webbrowser
 #### createcols()
 - Inserts documents into the collections from a list of dictionaies.
 #### index.html
-Webpage displating all the collections and aggregations
+Webpage displaying all the collections and aggregations
 #### On Google Chrome
 ![html](html1.png "html")
 ![html](html2.png "html")
